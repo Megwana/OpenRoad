@@ -39,11 +39,13 @@
           <div class="navbar-nav">
             {% if user.is_authenticated %}
             <a class="nav-item nav-link" href="/">Home</a>
+            <a class="nav-item nav-link" href="/trips">Road Trips</a>
             <a class="nav-item nav-link" href="/logout">Logout</a>
             {% else %}
             <a class="nav-item nav-link" href="/">Home</a>
             <a class="nav-item nav-link" href="/signup">Sign Up</a>
             <a class="nav-item nav-link" href="/login">Login</a>
+            <a class="nav-item nav-link" href="/preview">PreviewSample Road Trips</a>
             {% endif %}
           </div>
       </div>
