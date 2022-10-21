@@ -23,3 +23,9 @@ def login():
             flash('Email does not exist.', category='error')
 
     return render_template("login.html", user=current_user)
+
+@auth.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for("views.home"))
