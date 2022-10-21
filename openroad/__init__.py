@@ -14,7 +14,7 @@ from .auth import auth
 app.register_blueprint(views, url_prefix='/')
 app.register_blueprint(auth, url_prefix='/')
 
-from openroad.models import User
+from openroad.models import User, Roadtrip
 
 login_manager = LoginManager()
 login_manager.login_view = "auth.login"
