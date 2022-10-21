@@ -31,3 +31,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.info {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 5px;
+}
+
+hr {
+    border: rgb(201, 201, 201) 1px solid fill;
+    width: 80%;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.col-sm h4 {
+    text-align: center;
+    padding: 0;
+}
