@@ -18,5 +18,9 @@ def trips():
 
 
 @views.route('/preview')
-def sampletrips():
+def previewtrips():
     return render_template("preview.html", user=current_user)
+
+@views.route('/preview')
+def plans():
+    return render_template("plans.html", user=current_user)
