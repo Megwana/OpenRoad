@@ -1,6 +1,7 @@
-{% extends "base.html" %} {% block title %} Plans Page {% endblock %}
+{% extends "base.html" %} 
+{% block title %} Trip Notes {% endblock %}
 {% block content %} 
-<h1 align=""center>Trip Notes</h1>
+<h1 align="center">Trip Notes</h1>
 <ul class="list-group list-group-flush" id="notes">
     {% for plan in user.notes%}
     <li class="list-group-item">{{ plan.data }}</li>

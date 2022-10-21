@@ -21,6 +21,6 @@ def trips():
 def previewtrips():
     return render_template("preview.html", user=current_user)
 
-@views.route('/preview')
+@views.route('/plan')
 def plans():
-    return render_template("plans.html", user=current_user)
+    return render_template("plan.html", user=current_user)
