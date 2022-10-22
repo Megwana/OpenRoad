@@ -18,10 +18,33 @@
                     <div class="card-body">
                         <h5 class="card-title">Get to know us</h5>
                         <p class="card-text">If you want to read more about who we are and our company, click the button below for more information.</p>
-                        <a href="Modal" class="btn btn-success">About us</a>
+                        <div>
+                          <!-- Button trigger modal -->
+                          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#aboutUs">
+                            About Us
+                          </button>
+                          <!-- Modal -->
+                          <div class="modal fade" id="aboutUs" tabindex="-1" aria-labelledby="aboutUslLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="aboutUsLabel">Who are we?</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>                  
             <div class="col-sm-6">
                 <div class="card">
                     <img src="../static/images/yellowstone.jpg" class="card-img-top" alt="Yellowstone National Park">
@@ -87,7 +110,7 @@
                       </div>
                   </div>
                   <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark topBtn">Back to the Top of the page</button>
-                </div>
+            </div> 
         </div>
     </div>
 </section>
