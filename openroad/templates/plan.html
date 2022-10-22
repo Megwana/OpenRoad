@@ -3,12 +3,13 @@
 {% block content %} 
 <h1 align="center">Trip Notes</h1>
 <ul class="list-group list-group-flush" id="notes">
-    {% for plan in user.notes%}
+    {% for plan in user.notes %}
     <li class="list-group-item">{{ plan.data }}</li>
     {% endfor %}
 </ul>
 <form method="POST">
     <textarea name="plan" id="plan" cols="30" rows="10" class="form-control"></textarea>
+    <br>
     <div align="center">
         <button type="submit" class="btn btn-success">Add Trip Notes</button>
     </div>
