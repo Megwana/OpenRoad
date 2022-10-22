@@ -16,6 +16,14 @@
     margin-right: 20px;
 }
 
+h2 {
+    padding: 20px;
+}
+
+.alert-success {
+    margin: 0;
+}
+
 /* styling for home.html */
 
 .img-fluid {
@@ -65,3 +73,63 @@ hr {
 }
 
 /* styling for trips.html */
+
+.pc {
+    background-image: url(../images/pacific-coast.jpg);
+}
+
+.hr66 {
+    background-image: url(../images/route66.jpg);
+}
+
+.lr {
+    background-image: url(../images/loneliestrd.jpg);
+}
+
+.ot {
+    background-image: url(../images/oreganbeach.jpg);
+}
+
+.gn {
+    background-image: url(../images/greatnorthern.jpg);
+}
+
+.at {
+    background-image: url(../images/alpechantrail.jpg);
+}
+
+.grr {
+    background-image: url(../images/stlouis.jpg);
+}
+
+.ac {
+    background-image: url(../images/atlantictrail.jpg);
+}
+
+.b2b {
+    background-image: url(../images/border2border.jpg);
+}
+
+.trips-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.PchRouteMap {
+    background-image: url(../images/PacificCoastHighwayMapDrivingDistance.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.col-sm-6 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
