@@ -123,6 +123,20 @@ hr {
     height: 100vh;
 }
 
+.map66 {
+    background-image: url(../images/Route66MapDrivingDistance-RoadTripUSA.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 200px;
+}
+
+.lrmap {
+    background-image: url(../images/lrmap.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 400px;
+}
+
 .col-sm-6 {
     margin-bottom: 20px;
 }

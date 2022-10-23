@@ -4,7 +4,8 @@
 <h1 align="center">Trip Notes</h1>
 <ul class="list-group list-group-flush" id="notes">
     {% for plan in user.notes %}
-    <li class="list-group-item">{{ plan.data }}</li>
+    <li class="list-group-item">{{ plan.data }}
+    </li>
     {% endfor %}
 </ul>
 <form method="POST">
@@ -14,4 +15,7 @@
         <button type="submit" class="btn btn-success">Add Trip Notes</button>
     </div>
 </form>
+<script>
+    
+</script>
 {% endblock %}

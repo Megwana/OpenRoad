@@ -1,8 +1,9 @@
 """import blueprint from flask"""
-from flask import Blueprint, render_template, request, flash
+from openroad import db
+from flask import Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
 from .models import Roadtrip
-from openroad import db
+import json
 
 views = Blueprint('views', __name__)
 
@@ -22,11 +23,12 @@ def trips():
 def previewtrips():
     return render_template("preview.html", user=current_user)
 
+
 @views.route('/plan', methods=['GET', 'POST'])
 def plans():
     if request.method == 'POST':
         plan = request.form.get('plan')
-        if len(plan) <= 1:
+        if len(plan) < 1:
             flash('Note is too short!', category='error')
         else:
             new_plan = Roadtrip(data=plan, user_id=current_user.id)

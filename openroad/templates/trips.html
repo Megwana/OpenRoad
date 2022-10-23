@@ -4,6 +4,7 @@
 <h2 align="center" class="page-header">Road Trips</h2>
 <div class="container">
     <div class="row">
+          <!-- Pacific Coat Highway column -->
       <div class="col-sm-6">
         <div class="pc trips-img"></div>
         <h3>Pacific Coast Highway</h3>
@@ -29,21 +30,18 @@
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Washington</div>
-                  Beautiful beaches, grand buildings, and home to the San Diego Zoo, one of the largest and most popular zoos in the world
                 </div>
                 <span class="badge bg-success rounded-pill">1</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Oregon</div>
-                  Hollywood, Sunset Boulevard, and an intersection with another storied road trip: Route 66.
                 </div>
                 <span class="badge bg-success rounded-pill">2</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">California</div>
-                  A lively college town with a beautiful 18th-century Spanish mission to tour, and the Madonna Inn, one of the quirkiest places to spend a night.
                 </div>
                 <span class="badge bg-success rounded-pill">3</span>
               </li>
@@ -58,6 +56,7 @@
     </div>
         </div>
       </div>
+          <!-- Route 66 column -->
       <div class="col-sm-6">
         <div class="hr66 trips-img"></div>
         <h3>Historic Route 66</h3>
@@ -66,28 +65,77 @@
             Highlights along Route 66: Chicago (IL), Meramec Caverns (MO), Tucumcari (NM), Painted Desert (AZ), Santa Monica (CA)
         </p>
         <div>
-          <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary card-modal" data-bs-toggle="modal" data-bs-target="#pcModal">
-      Launch demo modal
-    </button>
-    
-    <!-- Modal for Historic Route 66-->
-    <div class="modal fade" id="pcModal" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="ModalLabel1">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <!-- Button trigger modal 1 -->
+          <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#route66Modal">
+            View Route
+          </button>
+          <!-- Modal for Pacific Coast Highway -->
+          <div class="modal fade" id="route66Modal" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="ModalLabel2">Route Stops</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Illinois</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Missouri</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Kansas</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Oklahoma</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Texas</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">New Mexico</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Arizona</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">California</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">8</span>
+                    </li>
+                  </ol>
+                  <div class="map66"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="modal-body">
-            Content is here...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
         </div>
       </div>
       <div class="col-sm-6">
@@ -98,28 +146,95 @@
             Highlights along the Loneliest Road: South Lake Tahoe (CA), Moab (UT), The Million Dollar Highway (CO), Washington D.C.
         </p>
         <div>
-          <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary card-modal" data-bs-toggle="modal" data-bs-target="#pcModal">
-      Launch demo modal
-    </button>
-    
-    <!-- Modal for The Loneliest Road-->
-    <div class="modal fade" id="pcModal" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="ModalLabel1">Modal title</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <!-- Button trigger modal 3 -->
+          <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#LrModal">
+            View Route
+          </button>
+          <!-- Modal for Pacific Coast Highway -->
+          <div class="modal fade" id="LrModal" tabindex="-1" aria-labelledby="ModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="ModalLabel3">Route Stops</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">California</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Nevada</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Utah</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Colorado</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Kansas</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Missouri</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Illinois</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Indiana</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Ohio</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">9</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">West Virginia</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">10</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Maryland</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">11</span>
+                    </li>
+                  </ol>
+                  <div class="lrmap"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="modal-body">
-            Content is here...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
         </div>
       </div>
     <div class="col-sm-6">
