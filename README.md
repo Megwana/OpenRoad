@@ -18,15 +18,15 @@ Project Overview
 Table of Contents - Click for full list
 </summary>
 
-- 1. UX Development
-- 2. Technologies Applied
-- 3. Features
-- 4. Testing 
-- 5. Deployment 
-- 6. Credits & Acknowledgments
+- [UX Development](#ux-development)
+- [Technologies Applied](#technologies-applied)
+- [Features](#features)
+- [Testing](#testing) 
+- [Deployment](#deployment--local-development)
+- [Credits & Acknowledgments](#credits--acknowledgments)
 </details>
 
-1. UX Development
+# UX Development
 
 Strategy
 - conceptualisation
@@ -46,21 +46,21 @@ Skeleton
 - Design/ color scheme
 - Typography
 
-2. Technologies Applied 
+# Technologies Applied 
 - requirement txt
 
-3. Features
+# Features
 - Future Features
 - Defensive (login required)
 - functionality routes check if logged in 
 - error 
 
-4. Testing
+# Testing
 (Bugs)
 
-5. Deployment & Local Development 
+# Deployment & Local Development 
 
-6. Credits & Acknowledgments
+# Credits & Acknowledgments
 
 
 
