@@ -4,5 +4,141 @@
 
 {% block content %} 
 <h2 align="center" class="page-header">Preview of our Road Trips List</h2>
+<div class="container">
+    <div class="row">
+          <!-- Pacific Coat Highway column -->
+      <div class="col-sm-6">
+        <div class="pc trips-img"></div>
+        <h3>Pacific Coast Highway</h3>
+        <p>
+            Starting at the northwest tip of the United States at Washington’s Olympic National Park and remaining within sight of the ocean all the way south to sunny San Diego, this 1,650-mile, mostly two-lane road trip takes in everything from temperate rainforest to near-desert.
+            Highlights along the Pacific Coast Route: Olympic National Park (WA), Three Capes Loop (OR), Redwood National Park (CA)
+        </p>
+        <div>
+    <!-- Button trigger modal 1 -->
+    <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#pcModal">
+      View Route
+    </button>
+    <!-- Modal for Pacific Coast Highway -->
+    <div class="modal fade" id="pcModal" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="ModalLabel1">Route Stops</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Washington</div>
+                </div>
+                <span class="badge bg-success rounded-pill">1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Oregon</div>
+                </div>
+                <span class="badge bg-success rounded-pill">2</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">California</div>
+                </div>
+                <span class="badge bg-success rounded-pill">3</span>
+              </li>
+            </ol>
+            <div class="PchRouteMap"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+          <!-- Route 66 column -->
+      <div class="col-sm-6">
+        <div class="hr66 trips-img"></div>
+        <h3>Historic Route 66</h3>
+        <p>
+            The romance of traveling along historic Route 66 from where it starts in Chicago and ends in Los Angeles continues to captivate people around the world. If you’re looking for great displays of neon signs, rusty middle-of-nowhere truck stops, or kitschy Americana, do as the song says and “get your kicks on Route 66.”
+            Highlights along Route 66: Chicago (IL), Meramec Caverns (MO), Tucumcari (NM), Painted Desert (AZ), Santa Monica (CA)
+        </p>
+        <div>
+          <!-- Button trigger modal 1 -->
+          <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#route66Modal">
+            View Route
+          </button>
+          <!-- Modal for Pacific Coast Highway -->
+          <div class="modal fade" id="route66Modal" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="ModalLabel2">Route Stops</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Illinois</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Missouri</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Kansas</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">3</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Oklahoma</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">4</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Texas</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">New Mexico</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">6</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Arizona</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">7</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">California</div>
+                      </div>
+                      <span class="badge bg-success rounded-pill">8</span>
+                    </li>
+                  </ol>
+                  <div class="map66"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 {% endblock %} 
