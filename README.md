@@ -13,8 +13,18 @@ LINK TO DEPLOYED APP
 
 Project Overview 
 
-- Table of Contents
-- Summary 
+<details>
+<summary>
+Table of Contents - Click for full list
+</summary>
+
+- 1. UX Development
+- 2. Technologies Applied
+- 3. Features
+- 4. Testing 
+- 5. Deployment 
+- 6. Credits & Acknowledgments
+</details>
 
 1. UX Development
 
