@@ -1,4 +1,7 @@
 /* styling for base.html */
+h1, h2 {
+    text-align: center;
+}
 .logo, .fa-map{
     color: white;
 }

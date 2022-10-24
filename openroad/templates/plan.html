@@ -2,7 +2,7 @@
 {% block title %} Trip Notes {% endblock %}
 {% block content %} 
 <section class="container">
-<h1 align="center">Trip Notes</h1>
+<h2 >Trip Notes</h2>
 <ul class="list-group list-group-flush" id="notes">
     {% for plan in user.notes %}
     <li class="list-group-item">{{ plan.data }}
