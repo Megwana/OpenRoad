@@ -139,6 +139,7 @@ Structure
 9. Heroku
 10. Github
 11. SQLAlchemy
+12. Bootstrap
 
 # Features
 - Future Features
@@ -150,6 +151,22 @@ Structure
 (Bugs)
 
 # Deployment & Local Development 
+
+## Deployment to Heroku
+
+I used Heroku to deploy this project. The deployed version is the same as the repository which is stored in GitHub.
+
+Deployment steps:
+
+1. In GitPod CLI, the root directory of OpenRoad, run: 
+pip3 freeze --local > requirements.txt to create a requirements.txt file holding project dependencies. 
+2. In the root directory of Open Road, create a new file called 'Procfile'.
+3. Login to Heroku/ Create an account. 
+4. Once logged in, select Create New App.
+5. Add the name of your app (no spaces). Select your closest region US or Europe. 
+6. Go to the Deploy Tab on the Heroku Dashboard and select Github.
+7. Search for Open Road by its repository name and select connect. 
+8. Go to the settings tab, click reveal config vars and input the following: 
 
 # Credits & Acknowledgments
 
