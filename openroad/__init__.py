@@ -9,7 +9,6 @@ if os.path.exists('env.py'):
     
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "helloworld"
-
 app.config["DATABASE_URI"] = os.getenv("DATABASE_URL")
 db = SQLAlchemy(app)
 
@@ -34,3 +33,5 @@ def load_user(id):
 def init_db():
     with app.app_context():
         db.create_all()
+
+init_db()
