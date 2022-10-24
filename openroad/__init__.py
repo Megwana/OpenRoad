@@ -1,11 +1,16 @@
+import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from os import path
 from flask_login import LoginManager
 
+if os.path.exists('env.py'):
+    import env
+    
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "helloworld"
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql:///openroad"
+
+app.config["DATABASE_URI"] = os.getenv("DATABASE_URL")
 db = SQLAlchemy(app)
 
 from .views import views

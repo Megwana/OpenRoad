@@ -1,7 +1,8 @@
 {% extends "base.html" %} {% block title %} Trips Page {% endblock %}
 
 {% block content %} 
-<h2 align="center" class="page-header">Road Trips</h2>
+<section>
+<h2 class="page-header">Road Trips</h2>
 <div class="container">
     <div class="row">
           <!-- Pacific Coat Highway column -->
@@ -141,7 +142,7 @@
     </div>
       <div class="row">
         <!-- Lonliest Road column -->
-      <div class="col-sm-6">
+        <div class="col-sm-6">
         <div class="lr trips-img"></div>
         <h3>The Loneliest Road</h3>
         <p>
@@ -239,81 +240,81 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- Oregon Trail column -->
-    <div class="col-sm-6">
+        </div>
+        <!-- Oregon Trail column -->
+        <div class="col-sm-6">
             <div class="ot trips-img"></div>
             <h3>The Oregon Trail</h3>
             <p>
             Following in the footsteps of pilgrims and pioneers, US‑20 takes in a little of everything during its two-lane trek from Oregon’s rugged coast to the glorious sea and sand of Cape Cod.
             Highlights along the Oregon Trail: Cannon Beach (OR), Fort Boise (ID), Yellowstone National Park (WY), Mt Rushmore & Carhenge (NE)
             </p>
-                    <div>
+            <div>
           <!-- Button trigger modal 3 -->
-          <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#LrModal">
+          <button type="button" class="btn btn-success card-modal" data-bs-toggle="modal" data-bs-target="#OrModal">
             View Route
           </button>
           <!-- Modal for Pacific Coast Highway -->
-          <div class="modal fade" id="LrModal" tabindex="-1" aria-labelledby="ModalLabel3" aria-hidden="true">
+          <div class="modal fade" id="OrModal" tabindex="-1" aria-labelledby="ModalLabel4" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="ModalLabel3">Route Stops</h1>
+                  <h1 class="modal-title fs-5" id="ModalLabel4">Route Stops</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <ol class="list-group list-group-numbered">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">California</div>
+                        <div class="fw-bold">Oregon</div>
                       </div>
                       <span class="badge bg-success rounded-pill">1</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Nevada</div>
+                        <div class="fw-bold">Idaho</div>
                       </div>
                       <span class="badge bg-success rounded-pill">2</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Utah</div>
+                        <div class="fw-bold">Wyoming</div>
                       </div>
                       <span class="badge bg-success rounded-pill">3</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Colorado</div>
+                        <div class="fw-bold">Nebraska</div>
                       </div>
                       <span class="badge bg-success rounded-pill">4</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Kansas</div>
+                        <div class="fw-bold">Iowa</div>
                       </div>
                       <span class="badge bg-success rounded-pill">5</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Missouri</div>
+                        <div class="fw-bold">Illinois</div>
                       </div>
                       <span class="badge bg-success rounded-pill">6</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Illinois</div>
+                        <div class="fw-bold">Indiana</div>
                       </div>
                       <span class="badge bg-success rounded-pill">7</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Indiana</div>
+                        <div class="fw-bold">Ohio</div>
                       </div>
                       <span class="badge bg-success rounded-pill">8</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                       <div class="ms-2 me-auto">
-                        <div class="fw-bold">Ohio</div>
+                        <div class="fw-bold">Pensylvania</div>
                       </div>
                       <span class="badge bg-success rounded-pill">9</span>
                     </li>
@@ -338,9 +339,9 @@
               </div>
             </div>
           </div>
+            </div>
         </div>
       </div>
-    </div>
       <div class="row">
         <!-- The Great Northern Column  -->
         <div class="col-sm-6">
@@ -547,4 +548,5 @@
   <div>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark topBtn">Back to the Top of the page</button>
   </div> 
+</section>
 {% endblock %}
