@@ -55,7 +55,8 @@ h2 {
 }
 
 hr {
-    border: rgb(201, 201, 201) 1px solid fill;
+    border: rgb(201, 201, 201) 1px;
+    border-bottom: solid;
     width: 80%;
 }
 

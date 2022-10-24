@@ -140,7 +140,8 @@ Structure
 10. Github
 11. SQLAlchemy
 12. Bootstrap
-
+13. Font Awesome 
+14. Python Checker https://www.pythonchecker.com/
 # Features
 - Future Features
 - Defensive (login required)
@@ -169,6 +170,12 @@ pip3 freeze --local > requirements.txt to create a requirements.txt file holding
 8. Go to the settings tab, click reveal config vars and input the following: 
 
 # Credits & Acknowledgments
+
+I would like to Credit:
+
+https://www.roadtripusa.com/the-oregon-trail/ For the Road Trip content. 
+
+
 
 
 
