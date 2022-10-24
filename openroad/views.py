@@ -1,9 +1,8 @@
 """import blueprint from flask"""
-from openroad import db
-from flask import Blueprint, render_template, request, flash, jsonify
+from flask import Blueprint, render_template, request, flash
 from flask_login import login_required, current_user
+from openroad import db
 from .models import Roadtrip
-import json
 
 views = Blueprint('views', __name__)
 
