@@ -108,13 +108,37 @@ Structure
 * Guest User
 * Sign in User 
 * schema
-Skeleton
+## Skeleton
 - wireframes 
-- Design/ color scheme
-- Typography
+### Design
+
+[Bootstrap5](https://getbootstrap.com/) was used and customised for the front-end development of the application.
+
+#### Color scheme
+
+#### Typography
+
+[Bootstrap5](https://getbootstrap.com/) was used and customised for the Typography of the application.
 
 # Technologies Applied 
-- requirement txt
+
+* Languages:
+1. HTML 
+2. CSS
+3. JavaScript
+4. Python
+
+1. Flask
+2. Postgres
+3. pip
+4. Jinja
+5. Git 
+6. Google Chrome
+7. Werkzeug
+8. Flask_login
+9. Heroku
+10. Github
+11. SQLAlchemy
 
 # Features
 - Future Features
